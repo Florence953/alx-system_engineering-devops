@@ -1,2 +1,2 @@
 #!/bin/bash
-find $PUSH -mindepth 1 -type d | wc -l
+$PATH | tr ":" "\n" | wc -l 
