@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH ls -lR | grep ^d | wc -l
+find $PUSH -mindepth 1 -type d | wc -l
